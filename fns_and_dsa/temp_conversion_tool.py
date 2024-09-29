@@ -11,8 +11,10 @@ def convert_to_fahrenheit(celsius):
 temperature =  float(input("Enter the temperature to convert:"))
 measurement = input("Is this temperature in Celsius or Fahrenheit? (C/F):").upper()
 
-match measurement:
-    case "C":
+
+if measurement == "C":
         convert_to_fahrenheit(temperature)
-    case "F":
+elif measurement == "F":
         convert_to_celsius(temperature)
+else:
+    print("Invalid temperature. Please enter a numeric value")
