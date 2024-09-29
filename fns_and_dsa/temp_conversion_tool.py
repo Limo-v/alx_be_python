@@ -17,4 +17,4 @@ if measurement == "C":
 elif measurement == "F":
         convert_to_celsius(temperature)
 else:
-    print("Invalid temperature. Please enter a numeric value")
+    print("Invalid temperature. Please enter a numeric value.")
